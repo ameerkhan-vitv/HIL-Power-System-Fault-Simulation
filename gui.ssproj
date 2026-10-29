@@ -1,0 +1,261 @@
+{
+    "actions": [
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "Low Speed",
+            "txData": "2\n",
+            "txEncoding": 0
+        },
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "High Speed",
+            "txData": "8\n",
+            "txEncoding": 0
+        },
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "Lightning Fault (Auto-Recover)",
+            "txData": "L\n",
+            "txEncoding": 0
+        },
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "Arcing Wires Fault (Noise)",
+            "txData": "A\n",
+            "txEncoding": 0
+        },
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "Fallen Tree Fault (Lockout)",
+            "txData": "E\n",
+            "txEncoding": 0
+        },
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "Power Brownout Mode",
+            "txData": "B\n",
+            "txEncoding": 0
+        },
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "Forced Load-Shedding Shutoff",
+            "txData": "S\n",
+            "txEncoding": 0
+        },
+        {
+            "autoExecuteOnConnect": false,
+            "binary": false,
+            "eol": "",
+            "icon": "",
+            "repeatCount": 3,
+            "sourceId": 0,
+            "timerIntervalMs": 100,
+            "timerMode": 0,
+            "title": "Clear Faults / Reset System",
+            "txData": "C\n",
+            "txEncoding": 0
+        }
+    ],
+    "changeDrivenTransforms": false,
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "datasetId": 0,
+                    "displayFormat": "0d",
+                    "displayTickCount": 5,
+                    "fft": false,
+                    "fftMax": 500,
+                    "fftMin": 0,
+                    "fftSamples": -1,
+                    "fftSamplingRate": -1,
+                    "fftWindow": 5,
+                    "graph": true,
+                    "groupId": 0,
+                    "index": 1,
+                    "led": false,
+                    "ledHigh": 0,
+                    "log": false,
+                    "numericValue": 0,
+                    "plotMax": 500,
+                    "plotMin": 0,
+                    "title": "Motor Current Load",
+                    "uniqueId": 0,
+                    "units": "",
+                    "value": "",
+                    "widget": "bar",
+                    "widgetMax": 500,
+                    "widgetMin": 0,
+                    "xAxis": -2
+                }
+            ],
+            "title": "Battery Current Monitor",
+            "uniqueId": 20001,
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "datasetId": 0,
+                    "displayFormat": "0d",
+                    "displayTickCount": 5,
+                    "fft": false,
+                    "fftMax": 2,
+                    "fftMin": 0,
+                    "fftSamples": -1,
+                    "fftSamplingRate": -1,
+                    "fftWindow": 5,
+                    "graph": true,
+                    "groupId": 1,
+                    "index": 2,
+                    "led": false,
+                    "ledHigh": 0,
+                    "log": false,
+                    "numericValue": 0,
+                    "plotMax": 2,
+                    "plotMin": 0,
+                    "title": "Safety Switch Status",
+                    "uniqueId": 10000,
+                    "units": "",
+                    "value": "",
+                    "widget": "led",
+                    "widgetMax": 2,
+                    "widgetMin": 0,
+                    "xAxis": -2
+                }
+            ],
+            "title": "Automatic Circuit Breaker",
+            "uniqueId": 20002,
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "datasetId": 0,
+                    "displayFormat": "0d",
+                    "displayTickCount": 5,
+                    "fft": false,
+                    "fftMax": 97,
+                    "fftMin": 0,
+                    "fftSamples": -1,
+                    "fftSamplingRate": -1,
+                    "fftWindow": 5,
+                    "graph": true,
+                    "groupId": 2,
+                    "index": 3,
+                    "led": false,
+                    "ledHigh": 0,
+                    "log": false,
+                    "numericValue": 0,
+                    "plotMax": 97,
+                    "plotMin": 0,
+                    "title": "Motor Control Speed",
+                    "uniqueId": 20000,
+                    "units": "",
+                    "value": "",
+                    "widget": "gauge",
+                    "widgetMax": 97,
+                    "widgetMin": 0,
+                    "xAxis": -2
+                }
+            ],
+            "title": "Motor Throttle Tracking",
+            "uniqueId": 20003,
+            "widget": ""
+        }
+    ],
+    "hexadecimalDelimiters": false,
+    "nextUniqueId": 20004,
+    "plotTimeRange": 10,
+    "pointCount": 1000,
+    "schemaVersion": 3,
+    "sources": [
+        {
+            "busType": 0,
+            "checksum": "",
+            "checksumAlgorithm": "",
+            "connection": {
+                "autoReconnect": false,
+                "baudRate": 115200,
+                "dataBitsIndex": 3,
+                "deviceId": {
+                    "portName": "ttyACM0"
+                },
+                "dtr": true,
+                "flowControlIndex": 0,
+                "parityIndex": 0,
+                "portIndex": 1,
+                "stopBitsIndex": 0
+            },
+            "decoder": 0,
+            "decoderMethod": 0,
+            "frameDetection": 1,
+            "frameEnd": "%",
+            "frameParserCode": "/**\n * Comma-Separated Values (CSV) Parser\n *\n * Parses comma-separated data into an array of values.\n *\n * INPUT FORMAT: \"a,b,c,d,e,f\"\n * OUTPUT ARRAY: [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]\n *\n * Note: Frame delimiters are automatically removed by Serial Studio.\n */\n\n//------------------------------------------------------------------------------\n// Frame Parser Function\n//------------------------------------------------------------------------------\n\n/**\n * Parses a CSV frame into an array of values.\n *\n * @param {string} frame - The CSV data from the data source\n * @returns {array} Array of string values\n */\nfunction parse(frame) {\n  return frame.split(',');\n}\n",
+            "frameStart": "#",
+            "hexadecimalDelimiters": false,
+            "sourceId": 0,
+            "title": "Device A"
+        }
+    ],
+    "title": "Smart Power Grid Simulation Dashboard",
+    "widgetSettings": {
+        "10:0:1": {
+            "page": 0
+        },
+        "11:2:3": {
+            "page": 0
+        }
+    },
+    "writerVersion": "4.0.3",
+    "writerVersionAtCreation": "4.0.3"
+}
