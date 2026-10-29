@@ -177,7 +177,6 @@ void loop() {
       break;
   }
 
-  // 🚀 CLEAN STREAMING CHANNELS: Clean # and % wrappers with no conflicting wildcard tags [Serial Studio]
   Serial.print("#");
   Serial.print(current_mA, 1);         Serial.print(",");
   Serial.print((int)currentGridState); Serial.print(",");
