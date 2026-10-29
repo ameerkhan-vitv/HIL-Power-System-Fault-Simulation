@@ -1,7 +1,4 @@
-/* 
- * DC Smart Power Grid Monitor - Industrial Telemetry HIL System
- * Classification: B.Tech Capstone Pure Data Integration Mode
- */
+
 
 #include <Wire.h>
 #include <Adafruit_INA219.h>
